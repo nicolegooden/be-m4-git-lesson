@@ -11,7 +11,7 @@ RSpec.describe 'Unauthenticated users' do
 
     expect(current_path).to eq('/login')
 
-    visit '/orders'
+    visit '/'
 
     expect(current_path).to eq('/login')
   end

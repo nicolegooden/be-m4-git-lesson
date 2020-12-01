@@ -10,8 +10,8 @@ RSpec.describe 'User can create an account' do
 
     expect(current_path).to eq(new_user_path)
 
-    fill_in "user[first_name]", with: "Emma"
-    fill_in "user[last_name]", with: "Swan"
+    fill_in "user[first_name]", with: "Nicole"
+    fill_in "user[last_name]", with: "Gooden"
     fill_in "user[address]", with: "123 Storybrooke Lane, MA 23451"
     fill_in "user[email]", with: "swan@ouat.com"
     fill_in "user[password]", with: "Henry"
